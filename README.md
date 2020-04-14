@@ -10,8 +10,12 @@ I datasets utilizzati possono essere scaricati dai seguenti link:
 - scikit-learn
 - matplotlib
 
-# Uso del codice
+Il progetto è stato interamente implementato in Python. 
+
+# Preprocessing
 - Eseguire il run sul file preprocessing.py, il quale creerà la cartella data-set in cui sono contenute le 10 categorie più frequenti del dataset reuters-21578, divise in training-set e test-set. 
 - Nel file reuters.py modificare il conteiner_path all'interno della funzione load_files(), specificando dove si trova la cartella "data-set" creata precedentemente.
+
+# Riproduzione dei risultati
 - Eseguire il file main.py, che consente di visualizzare l'accuratezza ottenuta con dei parametri di default (che è possibile eventualmente modificare nei file newsgroups.py e reuters.py). 
--Per visualizzare graficamente i risultati è necessario eseguire il run sui file GraficoEsempi.py e GraficoVocabularySize.py.
+- Per visualizzare graficamente i risultati è necessario eseguire il run sui file GraficoEsempi.py e GraficoVocabularySize.py.
