@@ -2,7 +2,6 @@ from sklearn.datasets import fetch_20newsgroups
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import Perceptron
 from sklearn.metrics import accuracy_score
-import numpy as np
 
 def perceptron_20newsgroups(vocabulary_size=10000, cats=4):
     categories =[]
