@@ -3,12 +3,12 @@ Lo scopo del progetto è di utilizzare implementazioni di Perceptron per classif
 
 # Dataset
 I datasets utilizzati possono essere scaricati dai seguenti link:
--20 newsgroups: http://qwone.com/~jason/20Newsgroups/
--Reuters-21578: http://www.daviddlewis.com/resources/testcollections/reuters21578/
+- 20 newsgroups: http://qwone.com/~jason/20Newsgroups/
+- Reuters-21578: http://www.daviddlewis.com/resources/testcollections/reuters21578/
 
 # Requisiti
--scikit-learn
--matplotlib
+- scikit-learn
+- matplotlib
 
 # Uso del codice
 - Eseguire il run sul file preprocessing.py, il quale creerà la cartella data-set in cui sono contenute le 10 categorie più frequenti del dataset reuters-21578, divise in training-set e test-set. 
